@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "my-tchoua-app",
+  "name": "Mon app Tchoua",
+  "scope": "MEMBER",
+  "version": "1.0.0",
+  "entryUrl": "https://votre-domaine.example/",
+  "permissions": [
+    "context:read"
+  ],
+  "settings": []
+}
