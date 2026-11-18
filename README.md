@@ -39,3 +39,10 @@ Soumettez votre manifest via `POST /api/apps/submit`. Une app reste en brouillon
 jusqu'à validation par l'administration Tchoua.
 
 Licence MIT.
+
+## SDK et composants
+
+- `sdk/tchoua-sdk.js` : helpers ESM pour lire le contexte, signaler le chargement et écouter les messages de la plateforme.
+- `components/tchoua-components.css` : boutons, cartes, champs, badges et états de contexte.
+
+Les apps peuvent utiliser ces fichiers directement ou les adapter à leur framework.

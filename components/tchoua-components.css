@@ -1,0 +1,17 @@
+:root {
+  --tchoua-forest: #0d3d28;
+  --tchoua-gold: #a47718;
+  --tchoua-ink: #14201a;
+  --tchoua-muted: #6b746e;
+  --tchoua-line: #e6e8e3;
+  --tchoua-paper: #fbfcf9;
+}
+.tchoua-card { border: 1px solid var(--tchoua-line); background: #fff; border-radius: 16px; padding: 18px; }
+.tchoua-button { border: 0; border-radius: 10px; padding: 10px 14px; font: inherit; font-weight: 800; cursor: pointer; background: var(--tchoua-forest); color: #fff; }
+.tchoua-button.secondary { background: #eef4ef; color: var(--tchoua-forest); }
+.tchoua-input { width: 100%; border: 1px solid var(--tchoua-line); border-radius: 10px; padding: 10px 12px; font: inherit; background: #fff; color: var(--tchoua-ink); }
+.tchoua-label { display: block; margin: 12px 0 5px; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; color: var(--tchoua-muted); }
+.tchoua-badge { display: inline-flex; padding: 5px 8px; border-radius: 999px; background: #eef4ef; color: var(--tchoua-forest); font-size: 10px; font-weight: 900; text-transform: uppercase; letter-spacing: .08em; }
+.tchoua-context { display: flex; gap: 8px; align-items: center; color: var(--tchoua-muted); font-size: 11px; }
+.tchoua-dot { width: 7px; height: 7px; border-radius: 50%; background: #22c55e; }
+.tchoua-status-error { color: #b42318; background: #fff1f0; border-radius: 8px; padding: 8px 10px; font-size: 12px; }
